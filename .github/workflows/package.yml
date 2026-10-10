@@ -21,7 +21,7 @@ jobs:
           nix_path: nixpkgs=channel:nixos-unstable
 
       - name: Package modpack
-        run: nix-shell --run "packwiz mr export -o odoocraft.mrpack"
+        run: nix-shell --run "packwiz mr export -o opossumcraft.mrpack"
 
       - name: Create GitHub release
         if: github.ref == 'refs/heads/main'
@@ -29,7 +29,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           tag="build-${GITHUB_RUN_NUMBER}-${GITHUB_RUN_ATTEMPT}"
-          gh release create "$tag" odoocraft.mrpack \
+          gh release create "$tag" opossumcraft.mrpack \
             --target "$GITHUB_SHA" \
-            --title "Odoocraft build ${GITHUB_RUN_NUMBER}" \
+            --title "OpossumCraft build ${GITHUB_RUN_NUMBER}" \
             --generate-notes

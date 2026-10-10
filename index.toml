@@ -45,10 +45,6 @@ file = "dockerfile"
 hash = "a241b05f917e77238271e88ee6a979fd7fb38318191e189e20bc10322efe6c82"
 
 [[files]]
-file = "icon.png"
-hash = "7eff00a39bd9eea0b3245fc8cbb33d11a4266cc90844ec742614b8bd995edf82"
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
@@ -670,7 +666,7 @@ metafile = true
 
 [[files]]
 file = "servers.dat"
-hash = "ecab7d7fe8dea97cd3af3b50cf5c9d73be8881a3dfdb390c0bf70979b121ce18"
+hash = "0c4e47d438c0e2e485aff988ab612e2cc918094d8504bc2ca4a9e8494e80f63d"
 
 [[files]]
 file = "shell.nix"

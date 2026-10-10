@@ -1,4 +1,4 @@
-name = "Odoocraft"
+name = "Opossumcraft"
 author = "Oppossome"
 version = "0.0.1"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dbd7e498248a4cb50f146c3a1e0c0c8c91d754ae00d1036413636c73ba8dde34"
+hash = "db7c059805668a6089e6d530436db9f1ff9552072d454aef9fe339fafaf21d17"
 
 [versions]
 minecraft = "1.21.1"
